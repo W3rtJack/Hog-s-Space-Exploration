@@ -1,0 +1,49 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Space",
+      "name": "Space",
+      "uuid": "9ea3ff9e-92bd-408c-98c9-6234c3f889e9",
+      "version": [1,0,0],
+      "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+      {
+        "description": "",
+        "type": "data",
+        "uuid": "b526361c-e0d0-4a52-9b73-fcb3e6b7d4e5",
+        "version": [1,0,0]
+      },
+      {
+        "type": "script",
+        "language":"javascript",
+        "uuid": "0c53decb-95cf-4a2d-9b9b-d981c49e54cd",
+        "entry": "scripts/main.js",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.16.0"
+        },
+        {
+          "module_name": "@minecraft/server-ui",
+          "version": "1.1.0"
+        },
+        {
+          "uuid": "f96595f1-854b-4c53-8c58-6f7fa1621b36",
+          "version": [1, 0, 0]
+        }
+    ],
+    "metadata": {
+      "authors": [
+        "HogWar554"
+      ]
+    }
+  }
