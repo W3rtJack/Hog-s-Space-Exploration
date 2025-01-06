@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hog:space_boots"
+      },
+
+      "tags": [ "crafting_table" ],
+
+      "pattern": [
+          "# #",
+          "#R#"
+      ],
+      "unlock": [
+        {
+          "item": "hog:aluminium_ingot"
+        }
+      ],
+
+      "key": {
+          "#": {
+              "item": "hog:aluminium_ingot"
+          },
+          "R": {
+              "item": "minecraft:redstone_torch"
+          }
+      },
+
+      "result": {
+          "item": "hog:space_boots"
+      }
+  }
+}
+
+

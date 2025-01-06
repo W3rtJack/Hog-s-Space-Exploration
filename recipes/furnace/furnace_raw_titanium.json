@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "hog:furnace_raw_titanium"
+      },
+      "unlock": [
+        {
+          "item": "hog:raw_titanium"
+        }
+      ],
+  
+      
+      "tags": ["furnace","blast_furnace"],
+      "input": "hog:raw_titanium",
+      "output": "hog:titanium_ingot"
+    }
+    
+}
+  

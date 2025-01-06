@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "hog:furnace_deepslate_titanium_ore"
+      },
+      "unlock": [
+        {
+          "item": "hog:deepslate_titanium_ore"
+        }
+      ],
+  
+      
+      "tags": ["furnace","blast_furnace"],
+      "input": "hog:deepslate_titanium_ore",
+      "output": "hog:titanium_ingot"
+    }
+    
+}
+  

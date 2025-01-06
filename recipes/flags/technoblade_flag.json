@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hog:technoblade_flag"
+      },
+
+      "tags": [ "crafting_table" ],
+
+      "pattern": [
+          "#B#",
+          "#S#",
+          "F"
+      ],
+      "unlock": [
+        {
+          "item": "minecraft:red_wool"
+        }
+      ],
+
+      "key": {
+          "#": {
+              "item": "minecraft:red_wool"
+          },
+          "F": {
+              "item": "hog:flag_pole"
+          },
+          "B": {
+              "item": "minecraft:diamond"
+          },
+          "S": {
+            "item": "minecraft:gold_block"
+          }
+      },
+
+      "result": {
+          "item": "hog:technoblade_flag"
+      }
+  }
+}

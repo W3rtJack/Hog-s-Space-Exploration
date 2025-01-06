@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hog:rebel_pottery_sherd",
+			"menu_category": {
+				"category": "items",
+                "group": "itemGroup.name.potterySherds"
+			}
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "rebel_pottery_sherd"
+                }
+            },
+            "minecraft:tags": {
+                "tags": ["minecraft:decorated_pot_sherds"]
+            },
+            "minecraft:rarity": {
+                "value": "uncommon"
+            },
+            "minecraft:hover_text_color": {
+                "value": "yellow"
+            }
+        }
+    }
+}

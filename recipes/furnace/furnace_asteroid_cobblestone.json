@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "hog:furnace_asteroid_cobblestone"
+      },
+      "unlock": [
+        {
+          "item": "hog:asteroid_cobblestone"
+        }
+      ],
+  
+      
+      "tags": ["furnace","blast_furnace"],
+      "input": "hog:asteroid_cobblestone",
+      "output": "hog:asteroid_stone"
+    }
+    
+}
+  
