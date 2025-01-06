@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "hog:furnace_martian_cobblestone"
+      },
+      "unlock": [
+        {
+          "item": "hog:martian_cobblestone"
+        }
+      ],
+  
+      
+      "tags": ["furnace","blast_furnace"],
+      "input": "hog:martian_cobblestone",
+      "output": "hog:martian_stone"
+    }
+    
+}
+  

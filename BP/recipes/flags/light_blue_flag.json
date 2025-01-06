@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hog:light_blue_flag"
+      },
+
+      "tags": [ "crafting_table" ],
+
+      "pattern": [
+          "###",
+          "###",
+          "F"
+      ],
+      "unlock": [
+        {
+          "item": "minecraft:light_blue_wool"
+        }
+      ],
+
+      "key": {
+          "#": {
+              "item": "minecraft:light_blue_wool"
+          },
+          "F": {
+              "item": "hog:flag_pole"
+          }
+      },
+
+      "result": {
+          "item": "hog:light_blue_flag"
+      }
+  }
+}

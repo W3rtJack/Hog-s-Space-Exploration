@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "hog:flag_pole"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "##",
+        "##",
+        "##"
+      ],
+      "key": {
+        "#": {
+          "item": "hog:aluminium_ingot"
+        }
+      },
+      "unlock": [
+        {
+          "item": "hog:aluminium_ingot"
+        }
+      ],
+      "result": {
+        "item": "hog:flag_pole",
+        "count": 8
+      }
+    }
+  }
+  

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hog:space_helmet"
+      },
+
+      "tags": [ "crafting_table" ],
+
+      "pattern": [
+          "###",
+          "#G#",
+          "###"
+      ],
+      "unlock": [
+        {
+          "item": "hog:aluminium_ingot"
+        }
+      ],
+
+      "key": {
+          "#": {
+              "item": "hog:aluminium_ingot"
+          },
+          "G": {
+              "item": "minecraft:glass"
+          }
+      },
+
+      "result": {
+          "item": "hog:space_helmet"
+      }
+  }
+}
+
+

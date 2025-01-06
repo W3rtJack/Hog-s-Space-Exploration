@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "hog:furnace_raw_aluminium"
+      },
+      "unlock": [
+        {
+          "item": "hog:raw_aluminium"
+        }
+      ],
+  
+      
+      "tags": ["furnace","blast_furnace"],
+      "input": "hog:raw_aluminium",
+      "output": "hog:aluminium_ingot"
+    }
+    
+}
+  

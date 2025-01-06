@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hog:space_knight_flag"
+      },
+
+      "tags": [ "crafting_table" ],
+
+      "pattern": [
+          "#B#",
+          "#S#",
+          "F"
+      ],
+      "unlock": [
+        {
+          "item": "minecraft:blue_wool"
+        }
+      ],
+
+      "key": {
+          "#": {
+              "item": "minecraft:blue_wool"
+          },
+          "F": {
+              "item": "hog:flag_pole"
+          },
+          "B": {
+              "item": "minecraft:diamond_sword"
+          },
+          "S": {
+            "item": "minecraft:soul_soil"
+          }
+      },
+
+      "result": {
+          "item": "hog:space_knight_flag"
+      }
+  }
+}

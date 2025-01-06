@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hog:sus_flag"
+      },
+
+      "tags": [ "crafting_table" ],
+
+      "pattern": [
+          "#B#",
+          "#R#",
+          "F"
+      ],
+      "unlock": [
+        {
+          "item": "minecraft:black_wool"
+        }
+      ],
+
+      "key": {
+          "#": {
+              "item": "minecraft:black_wool"
+          },
+          "F": {
+              "item": "hog:flag_pole"
+          },
+          "B": {
+              "item": "minecraft:glass"
+          },
+          "R": {
+              "item": "minecraft:red_wool"
+          }
+      },
+
+      "result": {
+          "item": "hog:sus_flag"
+      }
+  }
+}

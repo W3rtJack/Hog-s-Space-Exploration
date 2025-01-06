@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "hog:furnace_aluminium_ore"
+      },
+      "unlock": [
+        {
+          "item": "hog:aluminium_ore"
+        }
+      ],
+  
+      
+      "tags": ["furnace","blast_furnace"],
+      "input": "hog:aluminium_ore",
+      "output": "hog:aluminium_ingot"
+    }
+    
+}
+  
