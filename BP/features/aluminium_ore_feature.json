@@ -1,0 +1,27 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:ore_feature": {
+      "description": {
+        "identifier": "hog:aluminium_ore_feature"
+      },
+      "count": 6,
+      "replace_rules": [
+        {
+          "places_block": "hog:aluminium_ore",
+          "may_replace": [
+            {
+              "name": "minecraft:stone"
+            }
+          ]
+        },
+        {
+          "places_block": "hog:deepslate_aluminium_ore",
+          "may_replace": [
+            {
+              "name": "minecraft:deepslate"
+            }
+          ]
+        }
+      ]
+    }
+  }

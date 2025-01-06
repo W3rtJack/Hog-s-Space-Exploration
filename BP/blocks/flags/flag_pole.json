@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hog:flag_pole",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 25
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:geometry": "geometry.pole",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "flag_pole",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [-3,0,-3],
+                "size": [6,16,6]
+            }
+        }
+    }
+}

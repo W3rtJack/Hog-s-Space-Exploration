@@ -1,0 +1,63 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hog:llama_flag",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.banner"
+            },
+            "traits": {
+              "minecraft:placement_direction": {
+                "enabled_states": ["minecraft:cardinal_direction"]
+              }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,180,0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,90,0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,-90,0]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 25
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:geometry": "geometry.llama_flag",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "llama_flag",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [-3,0,-3],
+                "size": [11,16,6]
+            }
+        }
+    }
+}

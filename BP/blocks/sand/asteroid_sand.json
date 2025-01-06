@@ -1,0 +1,64 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hog:asteroid_sand",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 5
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.75,
+                "item_specific_speeds": [
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_shovel','minecraft:wooden_tier')"
+                      },
+                      "destroy_speed": 0.4
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_shovel','minecraft:stone_tier')"
+                      },
+                      "destroy_speed": 0.2
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_shovel','minecraft:iron_tier')"
+                      },
+                      "destroy_speed": 0.15
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_shovel','minecraft:diamond_tier')"
+                      },
+                      "destroy_speed": 0.1
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_shovel','minecraft:netherite_tier')"
+                      },
+                      "destroy_speed": 0.1
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_shovel','minecraft:golden_tier')"
+                      },
+                      "destroy_speed": 0.1
+                    }
+                ]
+            },
+			"minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "gray_martian_sand",
+                    "render_method": "opaque"
+                }
+            }
+        }
+    }
+}

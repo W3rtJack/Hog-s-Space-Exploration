@@ -1,0 +1,58 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "hog:seat",
+            "is_summonable": true,
+            "is_spawnable": false,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+              "family": [ "seat", "inanimate" ]
+            },
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+      "minecraft:can_power_jump": {},
+      "minecraft:horse.jump_strength": {
+          "value": 0
+      },
+      "minecraft:behavior.player_ride_tamed": {},
+			"minecraft:damage_sensor": {
+				"triggers": {
+                    "cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+            "minecraft:rideable": {
+              "seat_count": 1,
+              "crouching_skip_interact": true,
+              "family_types": [
+                "player"
+              ],
+              "interact_text": "action.interact.ride.seat",
+              "seats": {
+                "position": [ 0.0, 1, 0 ]
+              }
+    
+            },
+            "minecraft:input_ground_controlled": {
+            },
+            "minecraft:movement": {
+              "value": 0.1
+            }
+        }
+    }
+}

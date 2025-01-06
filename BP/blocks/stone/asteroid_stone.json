@@ -1,0 +1,66 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hog:asteroid_stone",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 5
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 7.5,
+                "item_specific_speeds": [
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier')"
+                      },
+                      "destroy_speed": 1.15
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier')"
+                      },
+                      "destroy_speed": 0.6
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier')"
+                      },
+                      "destroy_speed": 0.4
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier')"
+                      },
+                      "destroy_speed": 0.3
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier')"
+                      },
+                      "destroy_speed": 0.23
+                    },
+                    {
+                      "item": {
+                        "tags": "q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier')"
+                      },
+                      "destroy_speed": 0.2
+                    }
+                ]
+            },
+            "minecraft:loot": "loot_tables/blocks/asteroid_stone.json",
+			"minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "gray_martian_stone",
+                    "render_method": "opaque"
+                }
+            }
+        }
+    }
+}
