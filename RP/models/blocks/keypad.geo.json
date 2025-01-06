@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.keypad",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [-9, 0, 0],
+					"cubes": [
+						{"origin": [-6, 2, 5], "size": [7, 10, 3], "pivot": [-2.5, 23, 6.5], "rotation": [-15, 0, 0], "uv": [0, 0]},
+						{"origin": [-5, 2, 6], "size": [10, 7, 2], "uv": [0, 13]}
+					]
+				}
+			]
+		}
+	]
+}

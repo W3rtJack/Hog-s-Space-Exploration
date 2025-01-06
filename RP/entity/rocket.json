@@ -1,0 +1,20 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "hog:rocket",
+        "materials": {
+          "default": "zombie"
+        },
+        "textures": {
+          "default": "textures/entity/rocket"
+        },
+        "geometry": {
+          "default": "geometry.rocket"
+        },
+        "render_controllers": [
+          "controller.render.zombie"
+        ]
+      }
+    }
+  }

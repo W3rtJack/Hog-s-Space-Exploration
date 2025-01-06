@@ -1,0 +1,16 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:decorated_pot",
+            "textures": {
+                "piggy_pottery_sherd": "textures/blocks/piggy_pottery_pattern",
+                "invader_pottery_sherd": "textures/blocks/invader_pottery_pattern",
+                "trekking_pottery_sherd": "textures/blocks/trekking_pottery_pattern",
+                "rebel_pottery_sherd": "textures/blocks/rebel_pottery_pattern",
+                "bubbles_pottery_sherd": "textures/blocks/bubbles_pottery_pattern",
+                "planet_pottery_sherd": "textures/blocks/planet_pottery_pattern"
+            }
+        }
+    }
+}

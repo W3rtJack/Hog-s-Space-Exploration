@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "hog:planet_plane_overlay",
+      "basic_render_parameters": {
+        "material": "particles_planet_plane_overlay",
+        "texture": "textures/particles/square"
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_instant": {
+        "num_particles": 1
+      },
+      "minecraft:emitter_lifetime_once": {},
+      "minecraft:emitter_shape_custom": {
+        "direction": [ 0,0,0 ],
+        "offset": ["v.offset.x","v.offset.y","v.offset.z"]
+      },
+
+      "minecraft:particle_initial_speed": 0,
+      "minecraft:particle_motion_dynamic": {
+        "linear_drag_coefficient": 0.0
+      },
+
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "v.life"
+      },
+
+      "minecraft:particle_appearance_billboard": {
+        "size": ["v.size","v.size"],
+        "direction": {
+          "custom_direction": ["v.direction.x","v.direction.y","v.direction.z"],
+          "mode": "custom"
+        },
+        "uv": {
+          "texture_height": 1,
+          "texture_width": 1,
+          "uv": [0,0],
+          "uv_size": [1,1]
+        },
+        "facing_camera_mode": "direction_z"
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": ["v.col.r","v.col.g","v.col.b","v.col.a"]
+      }
+    }
+  }
+}

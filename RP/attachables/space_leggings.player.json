@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+      "description": {
+        "identifier": "hog:space_leggings.player",
+        "item": { "hog:space_leggings": "query.is_owner_identifier_any('minecraft:player')" },
+        "materials": {
+          "default": "armor",
+          "enchanted": "armor_enchanted"
+        },
+        "textures": {
+          "default": "textures/models/armor/space_suit_leggings",
+          "enchanted": "textures/misc/enchanted_actor_glint"
+        },
+        "geometry": {
+          "default": "geometry.space_suit_leggings"
+        },
+        "scripts": {
+          "parent_setup": "variable.leg_layer_visible = 0.0;",
+          "animate": [
+            "offset"
+          ]
+        },
+        "animations": {
+          "offset": "animation.armor.leggings.offset"
+        },
+        "render_controllers": [ "controller.render.armor" ]
+      }
+    }
+  }
+  

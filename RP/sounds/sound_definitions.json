@@ -1,0 +1,13 @@
+{
+	"format_version": "1.17.0",
+	"sound_definitions": {
+		"random.boop": {
+			"category": "block",
+			"sounds": [
+				"sounds/random/squeak_1",
+				"sounds/random/squeak_2",
+				"sounds/random/squeak_3"
+			]
+		}
+    }
+}

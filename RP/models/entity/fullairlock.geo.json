@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fullairlock",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [23.98, 0, -3], "size": [0, 48, 6], "uv": [0, 72]},
+						{"origin": [-23.98, 0, -3], "size": [0, 48, 6], "uv": [12, 72]},
+						{"origin": [-23.98, 0.02, -3], "size": [48, 0, 6], "uv": [0, 40]},
+						{"origin": [-24.02, 47.98, -3], "size": [48, 0, 6], "uv": [0, 46]}
+					]
+				},
+				{
+					"name": "door",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-24, 40, -2], "size": [48, 8, 4], "uv": [0, 28]},
+						{"origin": [16, 24, -2], "size": [8, 16, 4], "uv": [24, 72]},
+						{"origin": [-16, 24, -2], "size": [32, 16, 4], "inflate": -0.01, "uv": [0, 52]},
+						{"origin": [-24, 24, -2], "size": [8, 16, 4], "uv": [48, 72]},
+						{"origin": [-24, 0, -2], "size": [48, 24, 4], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,90 @@
+tile.hog:martian_sand.name=Martian Sand
+tile.hog:martian_stone.name=Martian Stone
+tile.hog:titanium_block.name=Titanium Block
+tile.hog:steel_block.name=Steel Block
+tile.hog:martian_iron_ore.name=Martian Iron Ore
+tile.hog:martian_gold_ore.name=Martian Gold Ore
+tile.hog:deepslate_aluminium_ore.name=Deepslate Aluminium Ore
+tile.hog:deepslate_titanium_ore.name=Deepslate Titanium Ore
+tile.hog:aluminium_ore.name=Aluminium Ore
+tile.hog:titanium_ore.name=Titanium Ore
+tile.hog:asteroid_titanium_ore.name=Asteroid Titanium Ore
+tile.hog:asteroid_stone.name=Asteroid Stone
+tile.hog:asteroid_sand.name=Asteroid Sand
+tile.hog:asteroid_iron_ore.name=Asteroid Iron Ore
+tile.hog:asteroid_gold_ore.name=Asteroid Gold Ore
+tile.hog:asteroid_aluminium_ore.name=Asteroid Aluminium Ore
+tile.hog:aluminium_block.name=Aluminium Block
+tile.hog:titanium_bricks.name=Titanium Bricks
+tile.hog:aluminium_plating.name=Aluminium Plating
+tile.hog:polished_martian_stone.name=Polished Martian Stone
+tile.hog:polished_asteroid_stone.name=Polished Asteroid Stone
+tile.hog:martian_cobblestone.name=Martian Cobblestone
+tile.hog:asteroid_cobblestone.name=Asteroid Cobblestone
+
+item.hog:piggy_pottery_sherd=Piggy Pottery Sherd
+item.hog:piggy_pottery_sherd.name=Piggy Pottery Sherd
+item.hog:invader_pottery_sherd=Invader Pottery Sherd
+item.hog:invader_pottery_sherd.name=Invader Pottery Sherd
+item.hog:trekking_pottery_sherd=Trekking Pottery Sherd
+item.hog:trekking_pottery_sherd.name=Trekking Pottery Sherd
+item.hog:rebel_pottery_sherd=Rebel Pottery Sherd
+item.hog:rebel_pottery_sherd.name=Rebel Pottery Sherd
+item.hog:planet_pottery_sherd=Planet Pottery Sherd
+item.hog:planet_pottery_sherd.name=Planet Pottery Sherd
+item.hog:bubbles_pottery_sherd=Bubbles Pottery Sherd
+item.hog:bubbles_pottery_sherd.name=Bubbles Pottery Sherd
+
+
+item.hog:aluminium_ingot=Aluminium Ingot
+item.hog:raw_aluminium=Raw Aluminium
+item.hog:raw_titanium=Raw Titanium
+item.hog:steel_ingot=Steel Ingot
+item.hog:titanium_ingot=Titanium Ingot
+
+
+tile.hog:black_flag.name=Black Flag
+tile.hog:llama_flag.name=Llama Flag
+tile.hog:light_gray_flag.name=Light Gray Flag
+tile.hog:cyan_flag.name=Cyan Flag
+tile.hog:space_kitty_flag.name=Space Kitty Flag
+tile.hog:super_overworld_flag.name=Super Overworld Flag
+tile.hog:yellow_flag.name=Yellow Flag
+tile.hog:white_flag.name=White Flag
+tile.hog:technoblade_flag.name=Technoblade Flag
+tile.hog:sus_flag.name=Sus Flag
+tile.hog:space_knight_flag.name=Space Knight Flag
+tile.hog:space_hog_flag.name=Space Hog Flag
+tile.hog:lime_flag.name=Lime Flag
+tile.hog:red_flag.name=Red Flag
+tile.hog:purple_flag.name=Purple Flag
+tile.hog:blue_flag.name=Blue Flag
+tile.hog:pink_flag.name=Pink Flag
+tile.hog:orange_flag.name=Orange Flag
+tile.hog:nether_divers_flag.name=Nether Divers Flag
+tile.hog:magenta_flag.name=Magenta Flag
+tile.hog:light_blue_flag.name=Light Blue Flag
+tile.hog:green_flag.name=Green Flag
+tile.hog:gray_flag.name=Gray Flag
+tile.hog:earth_flag.name=Earth Flag
+tile.hog:brown_flag.name=Brown Flag
+tile.hog:flag_pole.name=Flag Pole
+
+item.hog:space_helmet=Space Helmet
+item.hog:space_chestplate=Space Chestplate
+item.hog:space_leggings=Space Leggings
+item.hog:space_boots=Space Boots
+tile.hog:rat_plush.name=Rat Plushie
+tile.hog:keypad.name=Keypad
+item.hog:rocket=Rocket
+
+action.hint.exit.hog:rocket=Sneak to exit rocket
+action.hint.exit.hog:seat=Hold jump and look up/down\nto travel in direction
+
+
+entity.hog:rocket.name=Rocket Ship
+entity.hog:seat.name=Seat
+entity.hog:data.name=Data
+entity.hog:airlock_door_entity.name=Airlock Door
+action.interact.ride.seat=Enter Rocket Ship
+entity.hog:space_station.name=Space Station

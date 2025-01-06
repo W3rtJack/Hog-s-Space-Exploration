@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "hog:space_station",
+        "materials": {
+          "default": "zombie"
+        },
+        "textures": {
+          "default": "textures/entity/station"
+        },
+        "geometry": {
+          "default": "geometry.spacestation"
+        },
+        "render_controllers": [
+          "controller.render.zombie"
+        ]
+      }
+    }
+  }

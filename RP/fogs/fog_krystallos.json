@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "hog:fog_krystallos"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 16,
+        "fog_end": 36,
+        "fog_color": "#699ebd",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

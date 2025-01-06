@@ -1,0 +1,51 @@
+{
+	"individual_event_sounds": {
+		"events": {}
+	},
+	"block_sounds": {
+	},
+	"entity_sounds": {
+		"defaults": {
+			"volume": 1,
+			"pitch": [
+				0.8,
+				1.2
+			]
+		},
+		"entities": {
+			"hog:caribou": {
+				"volume": [
+					0.8,
+					1.1
+				],
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "caribou.idle",
+					"hurt": "caribou.hurt",
+					"death": "caribou.death"
+				}
+			},
+			"hog:trout" : {
+			   "events" : {
+				  "flop" : {
+					 "pitch" : 1.0,
+					 "sound" : "mob.fish.flop",
+					 "volume" : 1.0
+				  },
+				  "hurt" : "mob.fish.hurt",
+				  "hurt.in.water" : "mob.fish.hurt",
+				  "step" : {
+					 "pitch" : 1.0,
+					 "sound" : "mob.fish.step",
+					 "volume" : 0.150
+				  }
+			   },
+			   "pitch" : [ 0.80, 1.20 ],
+			   "volume" : 1.0
+			}
+        }
+    }
+}

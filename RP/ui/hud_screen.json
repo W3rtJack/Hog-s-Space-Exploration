@@ -1,0 +1,72 @@
+{
+  "namespace": "hud",
+  
+  
+
+  "space_helmet_overlay": {
+    "type": "image",
+    "texture": "textures/ui/helmet_overlay",
+    "size": [ "100%", "100%" ],
+    "fill": true,
+    "offset": [ 0, 0 ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'helmet')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+    "hud_title_text/title_frame/title": {
+      "modifications": [
+        {
+          "array_name": "bindings",
+          "operation": "insert_back",
+          "value": {
+            "binding_type": "view",
+            "source_property_name": "(not (#text = 'helmet'))",
+            "target_property_name": "#visible"
+          }
+        }
+      ]
+    },
+
+    
+  "hud_content": {
+    "type": "panel",
+    "$hud_size": [ "100%", "100%" ],
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+            "space_helmet@hud.space_helmet_overlay": {}
+        }
+      }
+    ]
+  },
+
+  "hud_actionbar_text": {
+    "type": "panel",
+    "size": [ "100%c + 12px", "100%c + 5px" ],
+    "offset": [ "10%", "50%-58px" ],
+    "controls": [
+      {
+        "actionbar_message": {
+          "type": "label",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "color": "$tool_tip_text",
+          "layer": 31,
+          "text": "$actionbar_text",
+          "localize": false
+        }
+      }
+    ]
+  }
+}
